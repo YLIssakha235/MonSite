@@ -1,0 +1,148 @@
+Dégradé de couleur : on peut utiliser la fonction linear-gradient (3 arguments) pour Dégrader 
+exple = 
+degrade {
+    background: linear-gradient(90deg, #8360c3, #2ebf91)
+}
+
+* Bordure
+avec la proprièté border on peut utiliser jusquà 3 valeurs pour modifier l'apparence
+exple:
+.element{
+    border-top: 3px #EB5353 dotted(point);
+    border-right : 3px #Feeoe double(double);
+    border-bottom: 3px #ffel dashed(trait discontinu);
+    border-left: 3px #color solid(trait continu);
+}
+
+* Bordure et arrondie et ombre 
+exple:
+.element{
+    font-size: 25px; 
+    background:
+    border-radius: 
+    box-shadow (ombre) 6px 6px 0px rgba(0, 0, 0);
+    padding: 100px;
+}
+
+* pseudo-class hoover: permet de survoler qd on travailler avec une souris
+exple:
+<div class="mon-element"> fdfzzzzzz </div> HTML
+
+CSS .mon-element:hover{
+    background: ffel
+    color white
+}
+
+p:hover{
+    color: jzjc;
+
+}
+
+* pseudo class active et visited
+exple:
+a:active{
+    background: color
+}
+
+* HEADER : en-tête qui n'a rien avoir avec head elle se trouve dans body
+
+* FOOTER : pied de page qui se trouve aussi dans body on trouve les informations par exple les liens de contact
+les mentions légales la politique de confidentialité ...
+
+* NAV : c'est une balise qui peut contenir tous les principaux liens de navigations du site. 
+
+* liste ordonnées : 
+<ul>
+    <li> element </li>
+    <li> element </li>
+    <li> element </li>
+</ul>
+
+
+* liste numérotés : 
+<ol>
+    <li> element </li>
+    <li> element </li>
+    <li> element </li>
+</ol>
+
+* section et main
+
+MAIN : permet de declarer le contenu principal de la page, elle englobe la majeur partie du body d'une page en excluant les autres 
+elements / HEADER et FOOTER
+- elle doit être unique une seule par page 
+
+SECTION : on utilise pour structurer le contenu MAIN en plusieur section
+
+* TYPE DE balise
+- BLOCK : retour a la ligne directement
+- inline : se trouve obligatoirement à l'interieur d'une balise 
+
+* SPAIN et DIV
+- SPAIN : inline ( comme faire apparaitre un mot dans une paragraphe)
+exple:
+HTML <spain class:"school"> ECAM </spain> on peut trouver spain dans div et le contraire non
+
+- div : type BLOCK 
+
+* MARGIN et PADDING
+- padding : marge interieur 
+- margin : marge exterieure 
+
+exple: 
+p{
+    width : 350 px;
+    background : RED
+    text-align : jsutify;
+}
+pas top car pas de padding ni margin
+
+p{
+    width : 350 px;
+    background : RED
+    text-align : jsutify;
+    padding: 16px;
+    margin 50 px;
+}
+très bien ajuyster de l'int jusquà l'exterieure
+
+* FLEX AND FORMS 
+
+- centrer un element
+
+margin = auto;
+
+.center{
+    margin : auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px
+}
+
+pour centrer un texte 
+
+.center{
+    text-align: center;
+    border: 3px solid green;
+  
+}
+
+* FLEXBOX aligner les BLOCKs les unes à cotés des autres horizontalement
+
+.container{
+    display : flex;
+}
+
+- row : organiser sur une seule ligne par defaut;
+- colomn : organise sur une colonne;
+- row-reverse : organise sur une ligne, mais en ordre inverse
+- colomn-reverse : sur une colonne en ordre inverse
+
+* FLEX-WRAP : on peut demander a ce que les BLOCKs s'alignent pour eviter de soucis
+
+- flex-wrap : nowrap ; (pas de retour a la ligne (par defaut))
+- flex-wrap : wrap ; (demande a ce que les eltms vont a la ligne)
+- flex-wrap-reverse ;
+
+* on peut utiliser display pour faire passer block en inline et inversement 
+

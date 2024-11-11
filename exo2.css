@@ -1,0 +1,82 @@
+.header{
+    text-align: center;
+    text-decoration: dashed;
+    background-image: url(Images/camaleon2.jpeg);
+    margin-bottom: 5px;
+    padding: 5px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    
+}
+
+.Navigations{
+    background: linear-gradient(90deg, #8360c3, #2ebf91);
+    padding: 10px;
+    margin: auto;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0);
+    text-align: justify;
+    display: row;
+}
+
+.Content{
+    display: flex;
+}
+
+
+.MainContent{
+    background: linear-gradient(90deg, #6c637e, #3b4e48);
+    width: 80%;
+    padding: 20px;
+}
+
+.section1CV{
+    border: 3px solid rgb(94, 130, 157);
+    padding: 16px;
+    margin: 50px;
+}
+
+.section1{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 16px;
+    margin: 50px;
+}
+
+.section2{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 16px;
+    margin: 50px;
+}
+
+.asideContent{
+    width: 20%;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+.footer{
+    display: justify;
+    background: linear-gradient(90deg, #6c637e, #3b4e48);
+    text-align: center;
+    padding: 16px;
+    margin: auto;
+    
+    
+}
+
+.Formulaire{
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    border: 3px solid red;
+
+}
+
+.envoyer{
+    box-shadow: 3px 3px 0px rgb(79, 108, 144);
+}
